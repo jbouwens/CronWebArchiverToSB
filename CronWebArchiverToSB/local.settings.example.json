@@ -1,0 +1,11 @@
+{
+  "ServiceBusConnectionString": "Endpoint=sb://mybus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=abcdef1234567890abcdef1234567890abcdefghij=",
+  "FlareSolverrUrl": "http://localhost:8191",
+  "UrlsToScrape": [
+    {
+      "Url": "https://api.example.com/rates",
+      "QueueName": "rates-queue", 
+      "CronExpression": "*/5 * * * *"
+    }
+  ]
+ }
